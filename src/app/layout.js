@@ -24,10 +24,13 @@ export default function RootLayout({ children }) {
   const isMobile = useIsMobile();
 
   console.log("sidebarOpen",sidebarOpen)
+  console.log("sidebarOpen isMobile",isMobile)
 
   useEffect(() => {
     if (isMobile) {
       setSidebarOpen(false); // Automatically open sidebar on larger screens
+    }else{
+      setSidebarOpen(true);
     }
   }, [isMobile]);
 

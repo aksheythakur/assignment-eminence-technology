@@ -7,7 +7,7 @@ export default function Sidebar({ sidebarOpen, isMobile }) {
       className={`${
         sidebarOpen ? 'translate-x-0 w-64' : '-translate-x-full'
       } ${isMobile ? 'fixed z-30 h-screen top-20 w-64' : 'relative'}
-        top-0 left-0  bg-white  h-screen transform transition-transform duration-300 ease-in-out rounded-lg`}
+        top-0 left-0  bg-white   transform transition-transform duration-300 ease-in-out rounded-lg`}
     >
       {/* Workspace section */}
       <div className="p-4 border-b mt-10 bg-gray-100">

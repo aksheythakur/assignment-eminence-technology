@@ -10,7 +10,7 @@ export default function DashboardPage() {
             Upgrade Account
           </button>
           <StorageOverview />
-          <RecentFiles />
+          {/* <RecentFiles /> */}
         </div>
       </div>
     );
